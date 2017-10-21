@@ -1,0 +1,82 @@
+#countDown {
+	min-height:30px;
+}
+
+.answerImage {
+	float:left;
+	max-width:40%;
+}
+
+body {
+	font-size:20px;
+	background-color:#57BC90;
+	font-family: 'Slabo 27px', serif;
+	color:#A5A5A5;
+}
+
+.panel {
+	max-width:75%;
+	margin: 20px auto;
+	background-color:#015249;
+	color:white;
+	border:3px solid #A5A5AF;
+	padding:5px;
+}
+
+.startDiv {
+	border:none;
+
+}
+
+#startGame {
+	background-color:#015249;
+	color:white;
+	margin:5px auto;
+	width:100%;
+}
+
+.header {
+	background-color:#015249;
+	color:white;
+	font-size:40px;
+	border:10px solid #A5A5AF;
+	margin:30px;
+	
+}
+
+ul  {
+	list-style: none;
+}
+
+#countDown {
+	width:75px;
+	height:75px;
+	font-size:40px;
+	vertical-align: middle;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+#answerArea {
+	margin-top:0px;
+}
+
+.correct {
+	border-left:5px solid #57BC90;
+	border-right:5px solid #57BC90;
+}
+
+.answer {
+	cursor:pointer;
+	margin:8px;
+
+}
+
+.incorrect {
+
+}
+
+/*#77C9D4 feather (light blue)
+#57BC90 marine (light green)
+#015249 forest (dark green)
+#A5A5AF sleek grey (gray)*/
